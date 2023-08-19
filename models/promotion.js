@@ -11,8 +11,8 @@ const promotionSchema = new Schema({
         unique: true
     },
     image: {
-        data: Buffer,
-        contentType: String,
+        type: String,
+        required: true
     },
     featured: {
         type: Boolean,
