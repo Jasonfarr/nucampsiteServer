@@ -13,7 +13,6 @@ const promotionSchema = new Schema({
     image: {
         data: Buffer,
         contentType: String,
-        required: true
     },
     featured: {
         type: Boolean,
